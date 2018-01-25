@@ -24,8 +24,9 @@
 
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
+	<gap:plugin name="pushbots-cordova-plugin" spec="^1.4.0" source="npm" />
 	<preference name="android-build-tool" value="gradle" />
-	<preference name="android-minSdkVersion" value="15" />	
+	
     <!-- Plugins -->
     <!-- Core plugins -->
     <plugin name="cordova-plugin-battery-status"      source="npm" spec="~1.2.4" />
